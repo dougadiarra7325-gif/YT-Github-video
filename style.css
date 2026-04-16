@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    box-shadow: -11px -3px 6px 5px;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.navbar .logo img {
+    width: 250px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+.nav-items li {
+    list-style: none;
+    font-size:20px ;
+}
+.nav-items li a{
+    color: green;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.nav-items li a::before{
+    content: '';
+    position: absolute;
+    background: green;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    right: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-items li a:hover::before{
+ width: 100%;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/* hero-section */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.hero-content h1 {
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-content h3{
+    font-size: 30px;
+    text-justify: inter-word;
+}
+
+.hero-content h1 span{
+    color: green;
+}
+
+.search-content {
+    margin-top: 40px;
+}
+
+.search-content input{
+    border: none;
+    border-radius: 16px;
+    background: rgba(165, 164, 164, 0.484);
+    padding: 10px 20px;
+    width: 220px;
+}
+
+.search-content button{
+    background: green;
+    color: white;
+    outline: none;
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+}
+
+
+
+.produit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+}
+
+.produit .card{
+    width: 200px;
+    height: 200px;
+    border: 2px so;
+}
+.douga{
+    border: 1px solid;
+}
+.douga img{
+    object-fit: contain;
+    width: 200px;
+    gap: 25px;
+}
+.douga h1{
+    text-align: end;
+    margin-top: -224px;
+    color: #1a365d;
+}
+.douga h2{
+    text-align: end;
+    color: #1a365d;
+}
+.douga h3{
+    text-align: end;
+    color: #1a365d;
+}
+.douga ul  {
+    text-align: end;
+    color: #008b8b;
+    margin-top: -7px;;
+}
+.b {
+    background-color:#f6f4f2;
+}
+.djeneba{
+    border: 1px solid;
+}
+.djeneba img{
+    object-fit: contain;
+    width: 200px;
+
+}
+.djeneba h1{
+    text-align: end;
+    margin-top: -224px;
+    color: #1a365d;
+}
+.djeneba h2{
+    text-align: end;
+    color: #1a365d;
+}
+.djeneba ul {
+    text-align: end;
+    color: #008b8b;}
+    .djeneba h3{
+    text-align: end;
+    color: #1a365d;
+
+}
+.djeneba h3{
+    text-align: end;
+    color: #1a365d;
+}
+.assitan{
+    border: 1px solid;
+}
+.assitan img{
+    object-fit: contain;
+    width: 200px;
+
+}
+.assitan h1{
+    text-align: end;
+    margin-top: -224px;
+    color: #1a365d;
+}
+.assitan h2 {
+    text-align: end;
+    color: #1a365d;
+}
+.assitan ul {
+    text-align: end;
+    color: #008b8b;}
+.assitan h3{
+    text-align: end;
+    color: #1a365d;
+}
+}
+.oumar{
+    border: 1px solid;
+}
+.oumar img{
+    object-fit: contain;
+    width: 200px;
+
+}
+.oumar h1{
+    text-align: end;
+    margin-top: -224px;
+    color: #1a365d;
+}
+.oumar h2{
+    text-align: end;
+    color: #1a365d;
+}
+.oumar ul {
+    text-align: end;
+    color: #008b8b;}
+    .assitan h3{
+    text-align: end;
+    color: #1a365d;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+.oumar h3{
+    text-align: end;
+    color: #1a365d;
+}
+.aichou {
+    color: aqua;
+}
